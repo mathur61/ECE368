@@ -6,7 +6,7 @@ TARGET = a1
 # Build the target
 all: $(TARGET)
 
-$(TARGET): A1.c
+$(TARGET): a1.c
 	$(CC) $(CFLAGS) -o $(TARGET) a1.c
 
 clean:
