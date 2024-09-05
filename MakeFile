@@ -11,3 +11,4 @@ $(TARGET): a1.c
 
 clean:
 	rm -f $(TARGET)
+	
